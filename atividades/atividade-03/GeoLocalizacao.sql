@@ -25,7 +25,7 @@ CREATE TABLE tb_municipios (
       nome varchar(50),
       latitude varchar(50),
       longitude varchar(50),
-      FOREIGN KEY (id_microrregiao) REFERENCES tb_municipios(id)
+      FOREIGN KEY (id_microrregiao) REFERENCES tb_microrregiao(id)
 );
 
 

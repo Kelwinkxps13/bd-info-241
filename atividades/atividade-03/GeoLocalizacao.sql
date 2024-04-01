@@ -2,9 +2,9 @@ CREATE DATABASE localidades;
 
 USE DATABASE localidades;
 
-CREAT TABLE tb_microrregiao (
-      id INT PRIMARY KEY ,
-      nome varchar(50),  
+CREATE TABLE tb_microrregiao (
+      id INT PRIMARY KEY,
+      nome varchar(50)  
 );
 
 
@@ -17,10 +17,10 @@ VALUES(
     (12,"Canindé"),
     (13,"Baturité"),
     (14,"Chorozinho"),
-    (15, "Cascavel"),
+    (15, "Cascavel")
 );
 
-CREAT TABLE tb_municipios (
+CREATE TABLE tb_municipios (
       id INT PRIMARY KEY AUTO_INCREMENT,
       nome varchar(50),
       latitude varchar(50),

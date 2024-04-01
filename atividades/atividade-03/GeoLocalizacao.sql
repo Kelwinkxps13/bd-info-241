@@ -1,6 +1,6 @@
 CREATE DATABASE localidades;
 
-USE DATABASE localidades;
+USE localidades;
 
 CREATE TABLE tb_microrregiao (
       id INT PRIMARY KEY,

@@ -47,7 +47,7 @@
 - instale o connector do mysql para o python
   - faça **pip install mysql-connector-python**
 - criando o container
-  - faça **docker_compose up -d**
+  - faça **docker-compose up -d**
 - abrindo o mysql
   - faça **docker exec -it mysql_container -u root -p**
   - ira solicitar a senha

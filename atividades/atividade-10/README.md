@@ -5,6 +5,9 @@
 
 #### Segue abaixo o passo a passo:
 
+- entrando em sua conta
+    - faça **docker login**
+    - digite seu nome de usuario e senha
 - criar o arquivo .yml
   - faça **vim docker-compose.yml**
   - cole o script

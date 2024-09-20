@@ -214,3 +214,5 @@
 - executando o script
   - faça **python3 main.py**
   - o resultado deverá retornar o que se pede na questao.
+- saindo de sua conta
+    - faça **docker logout**

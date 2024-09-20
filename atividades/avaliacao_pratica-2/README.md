@@ -21,7 +21,8 @@
     - digite seu nome de usuario e senha
 - criar o arquivo .yml
   - faça **vim docker-compose.yml**
-  - cole o script
+  - pressione a tecla **i** para entrar no modo INSERT do vim
+  - cole o script usando **Control + Shift + V** (no meu caso é assim que cola)
     ~~~yml
 
     version: '3.8'
@@ -57,7 +58,12 @@
       mysql_data:
 
     ~~~
-  - feche o vim
+  - fechando o vim
+    - pressione **esc**
+    - pressione **:** (dois pontos)
+    - digite **wq** e aperte **enter**
+      - o que o **wq** faz?
+        - ele salva o arquivo
 - instale o connector do mysql para o python
   - faça **pip install mysql-connector-python**
 - criando o container
@@ -129,7 +135,8 @@
 
 - criando o arquivo .py para realizar a tarefa
   - faça **vim main.py**
-  - cole o script
+  - pressione a tecla **i** para entrar no modo INSERT do vim
+  - cole o script usando **Control + Shift + V** (no meu caso é assim que cola)
 
     ~~~python
     import mysql.connector
@@ -220,7 +227,12 @@
     conn.close()
 
     ~~~
-    - feche o vim
+  - fechando o vim
+    - pressione **esc**
+    - pressione **:** (dois pontos)
+    - digite **wq** e aperte **enter**
+      - o que o **wq** faz?
+        - ele salva o arquivo
 
 - executando o script
   - faça **python3 main.py**

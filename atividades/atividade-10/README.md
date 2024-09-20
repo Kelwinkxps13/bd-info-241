@@ -5,6 +5,8 @@
 
 #### Segue abaixo o passo a passo:
 
+OBS: para colar os scripts no terminal do docker é **Control + Shift + V** (no meu caso)
+
 - entrando em sua conta
     - faça **docker login**
     - digite seu nome de usuario e senha

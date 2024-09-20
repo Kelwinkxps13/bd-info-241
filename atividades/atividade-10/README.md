@@ -109,32 +109,9 @@
     INSERT INTO Matricula (nome_aluno, nome_professor, disciplina, nota_N1, nota_N2, faltas, Aprovado_SN) 
     VALUES (3, 1, 1, 9.0, 8.5, 1, TRUE);
 
-    -- Inserindo mais dados na tabela TB_ALUNOS
-    INSERT INTO TB_ALUNOS (nome) VALUES ('Ana Paula');
-    INSERT INTO TB_ALUNOS (nome) VALUES ('Bruno Ferreira');
-    INSERT INTO TB_ALUNOS (nome) VALUES ('Clara Mendes');
-
-    -- Inserindo mais dados na tabela TB_PROFESSOR
-    INSERT INTO TB_PROFESSOR (nome) VALUES ('Prof. Lucas Almeida');
-    INSERT INTO TB_PROFESSOR (nome) VALUES ('Prof. Fernanda Costa');
-
-    -- Inserindo mais dados na tabela TB_DISCIPLINA
-    INSERT INTO TB_DISCIPLINA (nome) VALUES ('Física');
-    INSERT INTO TB_DISCIPLINA (nome) VALUES ('Química');
-
-    -- Inserindo mais dados na tabela Matricula
-    INSERT INTO Matricula (nome_aluno, nome_professor, disciplina, nota_N1, nota_N2, faltas, Aprovado_SN) 
-    VALUES (4, 3, 3, 8.0, 7.5, 3, TRUE);
-    INSERT INTO Matricula (nome_aluno, nome_professor, disciplina, nota_N1, nota_N2, faltas, Aprovado_SN) 
-    VALUES (5, 4, 4, 5.5, 6.0, 4, FALSE);
-    INSERT INTO Matricula (nome_aluno, nome_professor, disciplina, nota_N1, nota_N2, faltas, Aprovado_SN) 
-    VALUES (6, 5, 5, 9.5, 9.0, 0, TRUE);
-    INSERT INTO Matricula (nome_aluno, nome_professor, disciplina, nota_N1, nota_N2, faltas, Aprovado_SN) 
-    VALUES (1, 3, 6, 7.0, 7.5, 2, TRUE);
-    INSERT INTO Matricula (nome_aluno, nome_professor, disciplina, nota_N1, nota_N2, faltas, Aprovado_SN) 
-    VALUES (2, 4, 6, 6.5, 6.0, 3, FALSE);
-
     ~~~
+- saindo do mysql
+  - faça **exit**
 
 - criando o arquivo .py para realizar a tarefa
   - faça **vim main.py**

@@ -131,11 +131,14 @@
     cursor = conn.cursor()
 
     # Função para executar uma consulta e exibir os resultados
+    # Função para executar uma consulta e exibir os resultados
     def executar_consulta(query):
         cursor.execute(query)
         result = cursor.fetchall()
         for row in result:
-            print(row)
+            # Usar 'join' para formatar a saída sem parênteses ou vírgulas
+            print(", ".join(str(item) for item in row))
+
 
     # 1. Listar todos os alunos reprovados
     query_reprovados = """

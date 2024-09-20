@@ -1,6 +1,7 @@
-# Atividade-Pratica-2
+# Avaliação_pratica-2
 
-## nota de observação: a screenshot está diferente do passo a passo, pois as palavras **matemática, história e João** estavam com acento.
+
+## nota de observação: a screenshot está diferente do passo a passo, pois as palavras **matemática, história e João** estavam com acento, alem de que tem menos registros nas tabelas.
 
 ### Proposta: 
 - Terminar a avaliação-10 fazer consultas a tabela Matricula. 

@@ -60,6 +60,7 @@ OBS: para colar os scripts no terminal do docker é **Control + Shift + V** (no 
       mysql_data:
 
     ~~~
+    - pressione **enter** para confirmar, caso ele não o faça automaticamente
   - fechando o vim
     - pressione **esc**
     - pressione **:** (dois pontos)
@@ -107,11 +108,12 @@ OBS: para colar os scripts no terminal do docker é **Control + Shift + V** (no 
           FOREIGN KEY (disciplina) REFERENCES TB_DISCIPLINA(id)
       );
       ~~~
+      - pressione **enter** para confirmar, caso ele não o faça automaticamente
 - antes de sair do mysql, voce deve fazer algumas inserçoes aleatorias para popular as tabelas
   - segue abaixo o codigo para popular as tabelas:
     ~~~sql
     -- Inserindo dados na tabela TB_ALUNOS
-    INSERT INTO TB_ALUNOS (nome) VALUES ('João Silva');
+    INSERT INTO TB_ALUNOS (nome) VALUES ('Joao Silva');
     INSERT INTO TB_ALUNOS (nome) VALUES ('Maria Oliveira');
     INSERT INTO TB_ALUNOS (nome) VALUES ('Carlos Souza');
 
@@ -120,8 +122,8 @@ OBS: para colar os scripts no terminal do docker é **Control + Shift + V** (no 
     INSERT INTO TB_PROFESSOR (nome) VALUES ('Prof. Pedro Santos');
 
     -- Inserindo dados na tabela TB_DISCIPLINA
-    INSERT INTO TB_DISCIPLINA (nome) VALUES ('Matemática');
-    INSERT INTO TB_DISCIPLINA (nome) VALUES ('História');
+    INSERT INTO TB_DISCIPLINA (nome) VALUES ('Matematica');
+    INSERT INTO TB_DISCIPLINA (nome) VALUES ('Historia');
 
     -- Inserindo dados na tabela Matricula
     INSERT INTO Matricula (nome_aluno, nome_professor, disciplina, nota_N1, nota_N2, faltas, Aprovado_SN) 
@@ -132,6 +134,7 @@ OBS: para colar os scripts no terminal do docker é **Control + Shift + V** (no 
     VALUES (3, 1, 1, 9.0, 8.5, 1, TRUE);
 
     ~~~
+    - pressione **enter** para confirmar, caso ele não o faça automaticamente
 - saindo do mysql
   - faça **exit**
 

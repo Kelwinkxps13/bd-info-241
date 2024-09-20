@@ -60,7 +60,6 @@ OBS: para colar os scripts no terminal do docker é **Control + Shift + V** (no 
       mysql_data:
 
     ~~~
-    - pressione **enter** para confirmar, caso ele não o faça automaticamente
   - fechando o vim
     - pressione **esc**
     - pressione **:** (dois pontos)

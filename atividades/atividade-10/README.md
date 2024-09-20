@@ -49,7 +49,7 @@
 - criando o container
   - faça **docker-compose up -d**
 - abrindo o mysql
-  - faça **docker exec -it mysql_container -u root -p**
+  - faça **docker exec -it mysql_container mysql -u root -p**
   - ira solicitar a senha
     - coloque a senha **rootpassword**
   - apos isso, voce deve estar dentro do mysql

@@ -1,8 +1,5 @@
 # Avaliação_pratica-2
 
-
-## nota de observação: a screenshot está diferente do passo a passo, pois tem menos registros nas tabelas.
-
 ### Proposta: 
 - Terminar a avaliação-10 fazer consultas a tabela Matricula. 
 - Criar scripts sql para para prova Prática
